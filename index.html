@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>cvbnzn bvcfifg</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+<button v-on:click = "printMethod(textOne)">Button 1</button>
+<button v-on:click= "printMethod(textTwo)">Button 2</button>
+  
+<input v-model="newText" v-on:keyup.enter="submitMethod" type='text' placeholder="some cool text" />
+  
+<ul>
+  <li v-for="item in list"> {{item}}</li>
+ <ul>
+
+<div v-on:click.right="blueBoxMethod" class="box"></div>
+
+<h1></h1>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
